@@ -15,65 +15,76 @@ body {
     align-items: center;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../img/GTR.webp);
     background-size: cover;
+    padding: 1.875rem;
 }
 
 form {
     width: 100%;
-    height: 400px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border-radius: 30px;
-    padding: 30px;
+    border-radius: 1.875rem;
+    padding: 1.875rem;
     background: rgba(191, 141, 7, 0.35);
-    border-radius: 16px;
+    border-radius: 1rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(.3125rem);
+    -webkit-backdrop-filter: blur(.3125rem);
     border: 1px solid rgba(191, 141, 7, 0.3);
+}
+
+h1{
+    margin-bottom: 1.25rem;
 }
 
 .input-container {
     display: flex;
-    gap: 10px;
+    align-items: center;
+    gap: .625rem;
     color: #fff;
+    margin-bottom: 1.875rem;
 }
 
 .form-parte1 {
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .form-parte2 {
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 input{
     color: #000;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: .3125rem;
+    padding: .3125rem;
+    height: 1.875rem;
 }
 
 button{
     background: #E2B020;
     border: none;
-    width: 150px;
-    height: 30px;
-    border-radius: 20px;
+    width: 9.375rem;
+    height: 1.875rem;
+    border-radius: 1.25rem;
     font-weight: bolder;
 }
 
 p{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 #peca{
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,5 +92,5 @@ p{
 
 #peca input{
     width: 100%;
-    height: 50px;
+    height: 3.125rem;
 }
