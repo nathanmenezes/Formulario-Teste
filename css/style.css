@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../img/GTR.webp);
+    background-size: cover;
+}
+
+form {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    padding: 30px;
+    background: rgba(191, 141, 7, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(191, 141, 7, 0.3);
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
+
+.form-parte1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form-parte2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+input{
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button{
+    background: #E2B020;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 20px;
+}
+
+#peca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#peca input{
+    width: 100%;
+    height: 50px;
+}
